@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "172886976820",
+    "project_id": "surveyearn-363520",
+    "storage_bucket": "surveyearn-363520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172886976820:android:bbceb3af50227b585bdd61",
+        "android_client_info": {
+          "package_name": "com.gyanhub.surveyearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172886976820-75odhnn157hs0grfsvk04hfaivsrmp9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gyanhub.surveyearn",
+            "certificate_hash": "b23a68ee9fb822c54dbcfc3d6f098539428f2004"
+          }
+        },
+        {
+          "client_id": "172886976820-muguv73ccsi0a8fg21rlgkgbeha57cd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gyanhub.surveyearn",
+            "certificate_hash": "1398c174531be2439e8becc27736c28abd3ab9d5"
+          }
+        },
+        {
+          "client_id": "172886976820-cfdtg2i9hb64oqo53g47pd572epl8tur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wLty9pQhW9LyoZcptBJOCMHO9FOuj-E"
+        },
+        {
+          "current_key": "AIzaSyD9aVTdYux7AexG_2HLEM5Djgl0VzBn0-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172886976820-cfdtg2i9hb64oqo53g47pd572epl8tur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172886976820:android:bc7064ee2cbe7e905bdd61",
+        "android_client_info": {
+          "package_name": "com.gyanhub.surveyearnadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172886976820-sp9otiil5cmemsuqdohto40p7lq42o0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gyanhub.surveyearnadmin",
+            "certificate_hash": "fa969d2534d8787a972d05e627c28c8d742b19de"
+          }
+        },
+        {
+          "client_id": "172886976820-cfdtg2i9hb64oqo53g47pd572epl8tur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0wLty9pQhW9LyoZcptBJOCMHO9FOuj-E"
+        },
+        {
+          "current_key": "AIzaSyD9aVTdYux7AexG_2HLEM5Djgl0VzBn0-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172886976820-cfdtg2i9hb64oqo53g47pd572epl8tur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

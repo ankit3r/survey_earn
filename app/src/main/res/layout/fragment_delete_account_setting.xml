@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.setting.DeleteAccountSettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Here's what happens when you delete your SurveyEarn account:"
+            android:textAlignment="textStart" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="if you provided your paypal details at any time, you won't be able to create a new account for one year."
+            android:textAlignment="textStart"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="if you did not provide your paypal details.you won't be able to create a new account for 30 days."
+            android:textAlignment="textStart"
+            android:textColor="#888888" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="You'll keep the payments we've transferred to your payment account"
+            android:textAlignment="textStart"
+            android:textColor="#888888" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="You'll no longer be able to log into your Viewpoints account to view your program history or reward history , and your points will be lost ."
+            android:textAlignment="textStart"
+            android:textColor="#888888" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="You'll no longer receive emails or push notifications from SurveyEarn."
+            android:textAlignment="textStart"
+            android:textColor="#888888" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_outline_info_24"
+            android:drawablePadding="15dp"
+            android:text="We may retain limited identifiable information in accordance with our SurveyEarn Data Policy and applicable laws ."
+            android:textAlignment="textStart"
+            android:textColor="#888888" />
+
+        <TextView
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:text="For mor information about the data SurveyEarn collects, go to the Help Center or see out Data policy."
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        style="@style/ActiveButton"
+        android:backgroundTint="#EF0260"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/program"
+        android:icon="@drawable/ic_programs"
+        android:title="Programs" />
+    <item
+        android:id="@+id/Rewards"
+        android:icon="@drawable/ic_trophy_cup_svgrepo_com"
+        android:title="Reward" />
+    <item
+        android:id="@+id/Account"
+        android:icon="@drawable/ic_account_svgrepo_com"
+        android:title="Account" />
+
+
+</menu>

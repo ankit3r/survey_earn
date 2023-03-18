@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.loginActivityFragment.IntroFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/welcome" />
+
+        <TextView
+            android:id="@+id/txtP"
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWelcome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/p"
+            android:textColor="#777373"
+            android:textSize="16sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_above="@+id/btnCreate"
+            android:layout_below="@id/txtP"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/intro"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="into.json"
+            app:lottie_loop="true" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            style="@style/ActiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnLogin"
+            android:minHeight="64dp"
+            android:text="@string/create_account" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/InActiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:minHeight="64dp"
+            android:text="@string/log_in" />
+    </RelativeLayout>
+
+</FrameLayout>

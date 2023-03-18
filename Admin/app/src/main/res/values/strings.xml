@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SurveyEarnAdmin</string>
+    <string name="programs">Programs</string>
+    <string name="reward">Reward</string>
+    <string name="account">Users</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_program">Send Program</string>
+    <string name="not_send">Not Send</string>
+    <string name="uploadProgrammes">Upload Programmes</string>
+    <string name="upload">Upload</string>
+    <string name="selectUser">Select user</string>
+    <string name="userDetails">User Details</string>
+    <string name="view_request">View Request</string>
+    <string name="view_history">View History</string>
+    <string name="view_balance">View Balance</string>
+</resources>

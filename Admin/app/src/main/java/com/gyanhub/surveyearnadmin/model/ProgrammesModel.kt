@@ -1,0 +1,15 @@
+package com.gyanhub.surveyearnadmin.model
+
+data class ProgrammesModel(
+    val programID: String,
+    val title: String,
+    val displayTitle: String,
+    val earnP: Int,
+    val expiryTime: String,
+    val totalTask: String,
+    val takeTime: String,
+    val url: String,
+    val docID: String,
+) {
+    constructor() : this("", "", "", 0, "", "","", "", "")
+}

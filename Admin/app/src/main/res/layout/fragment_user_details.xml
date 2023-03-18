@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.holder.UserDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewBalance"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_bg"
+            android:text="@string/view_balance" />
+
+        <RelativeLayout
+            android:id="@+id/viewBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_below="@id/txtViewBalance">
+
+            <TextView
+                android:id="@+id/txtUserBalance"
+                style="@style/paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtUserPoints"
+                style="@style/paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtUserBalance"
+                android:layout_margin="0dp"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtViewHistory"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewBalance"
+            android:background="@drawable/text_bg"
+            android:text="@string/view_history" />
+
+        <RelativeLayout
+            android:id="@+id/viewHistory"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewHistory">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtViewRequest"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewHistory"
+            android:background="@drawable/text_bg"
+            android:text="@string/view_request" />
+
+        <RelativeLayout
+            android:id="@+id/viewRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:layout_below="@id/txtViewRequest">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Survey Earn</string>
+    <string name="continues">Continue</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome">Welcome to SurveyEarn</string>
+    <string name="log_in">Log in</string>
+    <string name="p">Get start with logging in or Creating an account.</string>
+    <string name="intro">intro</string>
+    <string name="create_account">Create account</string>
+    <string name="l">Log into your SurveyEarn account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up_for_facebook">Sign Up for Facebook</string>
+    <string name="withFacebook">Log into SurveyEarn with Facebook</string>
+    <string name="phone_or_email">Email ID</string>
+    <string name="enter_your_confirmation_code">Enter Your Confirmation Code</string>
+    <string name="timer">If you didn\'t get a code, try again in  %1$s  seconds.</string>
+    <string name="send_number">We send a code to  %1$s .</string>
+    <string name="you_re_all_set">You\'re All Set</string>
+    <string name="progr">Sit back and relax. we\'ll email you when you have a new program.</string>
+    <string name="how_work">Eaen reword by completing programs or tasks. This helps to create better apps and services, and to benefit the community.</string>
+    <string name="learn_about_programs">Learn About Programs</string>
+    <string name="this_is_image_of_my_program">This is image of my program</string>
+    <string name="how_programs_work">How Programs Work</string>
+    <string name="help_support"><![CDATA[Help & support]]></string>
+    <string name="privacy_data"><![CDATA[Privacy & Data]]></string>
+    <string name="title_activity_massage_holder">MassageHolderActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="messages">Messages</string>
+    <string name="emailSettings">Email Settings</string>
+    <string name="help">Help</string>
+    <string name="privacy"><![CDATA[Privacy & Data]]></string>
+    <string name="deleteAccount">Delete account</string>
+    <string name="helpCenter"><![CDATA[Terms & Conditions]]></string>
+
+    <!-- Starting screen data-->
+    <string name="head01">Join us in Data Collection the future of technology</string>
+    <string name="para01">Contribute to the technology SurveyEarn user to create better apps and services, and to benefit the community.</string>
+    <string name="term">By continuing, you understand your use of SurveyEarn is subject to out <b>terms</b> and <b>Data policy</b></string>
+
+    <string name="head02">Earn Point and rewards</string>
+    <string name="para02">Get rewarded for participating in programs like surveys, tasks ,ads view and research.</string>
+
+    <string name="head03">You\'re in control</string>
+    <string name="para03">Before each program, we\'ll explain what data the program collects and how it\'s used. This is to help you make informed decisions.</string>
+    <string name="doing">Done</string>
+    <string name="reach">Reach 2,000 points to get a reward worth $3.</string>
+    <string name="with_google">Continue with Google</string>
+    <string name="withEmail">Switch Account</string>
+    <string name="or">OR</string>
+    <string name="withPhone">Log in with phone number</string>
+    <string name="ph_no">Phone number</string>
+    <string name="create_a_surveyearn_account">Create a SurveyEarn account</string>
+    <string name="review_our_data_policy">to see how Meta uses Your Email ID and other information collected through SurveyEarn, review our Privacy policy.</string>
+    <string name="program">Programs</string>
+    <string name="account">Account</string>
+    <string name="reward">Reward</string>
+    <string name="about_more">Tell us more about yourself</string>
+    <string name="full_name">Full Name</string>
+    <string name="country_name">Country Name</string>
+    <string name="gender">Gender</string>
+    <string name="send">send.</string>
+    <string name="privacy_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="aboutMor">About Programmes</string>
+
+    <!-- Drop Down List all here -->
+
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>CPP</item>
+    </string-array>
+
+</resources>

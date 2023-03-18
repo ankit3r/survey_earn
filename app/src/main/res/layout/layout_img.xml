@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <com.airbnb.lottie.LottieAnimationView
+              android:id="@+id/img_av"
+              android:layout_width="match_parent"
+              android:layout_height="350dp"
+              app:lottie_autoPlay="true"
+              app:lottie_loop="true"
+              android:layout_marginTop="20dp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true" />
+
+          <TextView
+              android:id="@+id/txt_h"
+              style="@style/Header"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/img_av"
+              android:layout_marginBottom="4dp"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="15dp"
+              android:text="header" />
+
+          <TextView
+              android:id="@+id/txt_para"
+              style="@style/paragraph"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/txt_h"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="0dp"
+              android:text="paragraph"
+              android:textColor="#A1A1A5"
+              android:textSize="16sp" />
+
+          <TextView
+              android:id="@+id/txt_Term"
+              style="@style/paragraph"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/txt_para"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="75dp"
+              android:textColor="#A1A1A5"
+              android:text="term" />
+      </RelativeLayout>
+  </ScrollView>
+
+
+</RelativeLayout>

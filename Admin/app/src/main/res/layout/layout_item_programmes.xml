@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtStatus"
+            style="@style/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/text_bg"
+            android:drawablePadding="3dp"
+            android:text="@string/not_send"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/nod_done_24" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStatus"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:maxLines="2"
+            android:textAlignment="textStart"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/txtEarnPoint"
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:drawablePadding="3dp"
+            android:textAlignment="textStart"
+            app:drawableStartCompat="@drawable/ic_trophy_svgrepo_com__1_" />
+
+        <TextView
+            android:id="@+id/txtExpTime"
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitle"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:drawablePadding="3dp"
+            android:textAlignment="textStart"
+            app:drawableStartCompat="@drawable/ic_expir_24"
+            app:drawableTint="#989898" />
+
+        <TextView
+            android:id="@+id/txtTotalTask"
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEarnPoint"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:drawablePadding="3dp"
+            android:textAlignment="textStart"
+            app:drawableStartCompat="@drawable/ic_massage" />
+
+        <TextView
+            android:id="@+id/txtTakenTime"
+            style="@style/paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEarnPoint"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:drawablePadding="3dp"
+            android:textAlignment="textStart"
+            app:drawableStartCompat="@drawable/ic_timer_24"
+            app:drawableTint="#989898" />
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@style/ActiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTakenTime"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/send_program" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
